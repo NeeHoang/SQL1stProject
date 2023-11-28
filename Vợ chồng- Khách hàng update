@@ -18,14 +18,14 @@ INSERT INTO Khach_Hang VALUES
 
 
 INSERT INTO Vo_chong VALUES
-('011038004855',N'Ngô Đình Đình','Nam',N'Chồng'),
-('018644323891',N'Hà Huy Dương','Nam',N'Chồng'),
+('011323333856',N'Hà Huy Dương','Nam',N'Chồng'),
 ('066232985332',N'Lê Anh Nguyệt',N'Nữ',N'Vợ'),
 ('001325666777',N'Trần Thu Hằng',N'Nữ',N'Vợ'),
 ('002228369458',N'Hồ Quang Hiếu','Nam',N'Chồng'),
 ('035111289323',N'Võ Thúy Quỳnh',N'Nữ',N'Vợ'),
 ('018332445876',N'Trần Đình Trung','Nam',N'Chồng'),
-('022376989221',N'Nguyễn Hà Giang',N'Nữ','Vợ'),
+('018644323891',N'Nguyễn Hà Giang',N'Nữ',N'Vợ'),
 ('001254332990',N'Hà Thành Nam','Nam',N'Chồng')
+
 
 
