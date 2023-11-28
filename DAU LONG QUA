@@ -1,0 +1,79 @@
+INSERT INTO BDS 
+			(ID_BDS,ID_CONGTY,DIACHI,DIENTICH,HUONG,LOAIHINH)
+VALUES
+('VPB18','006',N'Xã Vĩnh Lạc A, Bình Chánh, TP.HCM','200',null,N'Nhà riêng'),
+('VIB17','001',N'Thạch Bàn, Long Biên, Hà Nội','200',N'Bắc Nam',N'Condotel'),
+('ACB20','003',N'Ngọc Hà, Ba Đình, Hà Nội','100',N'Đông Nam',N'Căn hộ trung cư'),
+('BID44','004',N'Láng Hạ, Ba Đình, Hà Nội','200',N'Bắc Nam',N'Căn hộ trung cư'),
+('BVH40','005',N'Trung Hoà, Cầu Giấy, Hà Nội','250',N'Bắc Nam',N'Căn hộ trung cư'),
+('CTG29','006',N'Mễ Trì, Nam Từ Liêm, Hà Nội','120',N'Bắc Nam',N'Căn hộ trung cư'),
+('BCM58','007',N'Văn Quán, Hà Đông, Hà Nội','500',N'Đông Nam',N'Biệt thự nghỉ dưỡng'),
+('GAS78','008',N'Trươn Văn Lĩnh, Nghi Phú, Vinh','500',null,N'Biệt thự nghỉ dưỡng'),
+('GVR20','009',N'Tân Thời Nhất, Quận 12, TP.HCM','300',null,N'Nhà Xưởng'),
+('HDB18','010',N'Thanh Xuân Nam, Thanh Xuân, Hà Nội','400',null,N'Biệt thự nghỉ dưỡng'),
+('MSN62','011',N'Mộ Lao, Hà Đông, Hà Nội','500',N'Đông Nam',N'Condotel'),
+('PLX33','003',N'Lê Thánh Tôn, Phú Hòa, Huế','300',N'Bắc Nam',N'Condotel'),
+('POW11','005',N'Nguyễn Văn Linh, Hương Sơn, Huế','150',N'Bắc Nam',N'Condotel'),
+('SAB63','006',N'Tống Vũ, Vũ Chính, Thái Bình','150',N'Đông Nam',N'Căn hộ trung cư'),
+('STB28','007',N'Văn Hợp, Vân Cương, Bắc Ninh','450',null,N'Biệt thự nghỉ dưỡng'),
+('TCB30','008',N'Trần Đăng Ninh, Bà Triệu, Nam Định','300',null,N'Officetel'),
+('TPB15','009',N'Xã Vĩnh Lạc A, Bình Chánh, TP.HCM','600',null,N'Biệt thự nghỉ dưỡng'),
+('VJC106','010',N'Ngọc Hà, Ba Đình, Hà Nội','500',N'Đông Nam',N'Biệt thự nghỉ dưỡng'),
+('VRE22','011',N'Mễ Trì, Nam Từ Liêm, Hà Nội','550',null,N'Biệt thự nghỉ dưỡng'),
+('SSB23','003',N'Tân Thành, Tân Phú, TP.HCM','400',N'Đông Nam',N'Biệt thự nghỉ dưỡng'),
+('AAV4','004',N'Lê Thánh Tôn, Phú Hòa, Huế','300',N'Bắc Nam',N'Officetel'),
+('AGG24','005',N'Phúc Lợi, Long Biên, Hà Nội','200',null,N'Căn hộ trung cư'),
+('BAX51','006',N'Nguyên Khê, Đông Anh, Hà Nội','250',N'Đông Nam',N'Căn hộ trung cư'),
+('BCM55','007',N'Văn Quán, Hà Đông, Hà Nội','300',N'Đông Nam',N'Officetel'),
+('CEO22','008',N'Văn Hợp, Vân Cương, Bắc Ninh','350',N'Bắc Nam',N'Officetel'),
+('CRE7','009',N'Tân Thành, Tân Phú, TP.HCM','300',N'Tây Nam',N'Nhà Xưởng'),
+('DLR8','010',N'Trung Hoà, Cầu Giấy, Hà Nội','1000',N'Bắc Nam',N'Hoa viên nghĩa trang'),
+('DXG20','011',N'Láng Hạ, Ba Đình, Hà Nội','500',N'Đông Nam',N'Biệt thự nghỉ dưỡng'),
+('FIR22','004',N'Ngọc Hà, Ba Đình, Hà Nội','400',N'Tây Nam',N'Nhà Xưởng'),
+('HAG10','007',N'Ninh Phạm, Quảng Ninh, Thanh Hóa','250',N'Tây Nam',N'Căn hộ trung cư'),
+('HDC34','009',N'Khánh Sơn, Hòa Khánh Nam, Đà Nẵng','150',N'Tây Nam',N'Căn hộ trung cư')
+
+
+INSERT INTO BDS_KD 
+			(ID_BDS,PhongNgu,PhongTam,Thue,GiaThang)
+VALUES
+('VPB18','2','2','50000','7000000'),
+('ACB20','2','3','50000','13000000'),
+('BID44','4','5','100000','50000000'),
+('BVH40','2','3','100000','50000000'),
+('CTG29',null,null,'50000','15000000'),
+('BCM58','2','2','50000','15000000'),
+('GAS78','3','3','50000','15000000'),
+('GVR20',null,null,'50000','13000000'),
+('HDB18','3','3','50000','13000000'),
+('MSN62',null,null,'50000','5000000'),
+('PLX33','4','4','50000','15000000'),
+('VIB19','5','5','100000','50000000'),
+('POW11',null,null,'50000','5000000'),
+('SAB63','5','5','100000','50000000'),
+('STB28',null,null,'50000','5000000'),
+('TCB30','6','6','100000','50000000')
+
+
+
+INSERT INTO BDS_FS
+			(ID_BDS,THUE,GIA)
+VALUES
+('TPB15','4000000','120000000'),
+('VIB17','5000000','200000000'),
+('VJC106','12000000','2000000000'),
+('VRE22','15000000','2500000000'),
+('SSB23','8000000','800000000'),
+('AAV4','8000000','800000000'),
+('AGG24','8000000','800000000'),
+('BAX51','8000000','800000000'),
+('BCM55','5000000','200000000'),
+('CEO22','15000000','2500000000'),
+('CRE7','4000000','120000000'),
+('DLR8','5000000','200000000'),
+('DXG20','4000000','120000000'),
+('FIR22','5000000','200000000'),
+('HAG10','5000000','200000000'),
+('HDC34','5000000','200000000')
+
+GO
